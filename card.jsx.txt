@@ -1,0 +1,13 @@
+import React from 'react';
+import './GlassCard.css';
+
+const GlassCard = () => {
+  return (
+    <div className="glass-card">
+      <h2>Glass Effect Card</h2>
+      <p>This card has a glassmorphism effect.</p>
+    </div>
+  );
+};
+
+export default GlassCard;
